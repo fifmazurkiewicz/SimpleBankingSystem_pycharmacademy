@@ -89,6 +89,7 @@ while choice != 0:
                     # Close account
                     if option_logged == 4:
                         db.delete_acc(card_nr)
+                        print('The account has been closed!')
                     # Log out
                     if option_logged == 5:
                         print('You have successfully logged out!')
